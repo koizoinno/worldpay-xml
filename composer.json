@@ -1,0 +1,21 @@
+{
+    "name": "koizoinno/worldpay",
+    "description": "Client for using WorldPay stored profile tokenization endpoints.",
+    "authors": [
+      {
+        "name": "Matt Snyder",
+        "email": "matt@obscurelogic.com"
+      }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "guzzlehttp/guzzle": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Koizoinno\\Worldpay": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
